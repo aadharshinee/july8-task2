@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(Butterc.jpg) ;
+   background-size: cover;
+   background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-header {
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.recipe-header h1 {
+    margin: 0;
+    color: black;
+}
+
+.recipe-description {
+    background-color: black;
+    color: plum;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-description p {
+    margin: 0;
+    color: plum;
+}
+
+.recipe-section {
+    background-color: black;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-section h2 {
+    color: aqua;
+}
+
+.recipe-section ul, .recipe-section ol {
+    margin: 0;
+    padding-left: 20px;
+    color: plum
+}
+
+.recipe-section li {
+    margin-bottom: 10px;
+}
